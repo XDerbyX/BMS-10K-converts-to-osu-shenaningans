@@ -2,7 +2,7 @@ import os
 
 #For changing 16k to 10K if so that no notes overlap happens
 if __name__ == '__main__':
-    dir = "E:/osu!/Songs/GCS 10K Pack #2"
+    dir = "E:/osu!/Songs/GCS 10K Pack #5"
     number_mapping = {
         21: 25,
         64: 76,
@@ -58,4 +58,4 @@ if __name__ == '__main__':
                 f.write(newfile)
             
             count += 1  # Counter
-            print(f"Processed {file} ({count} lines changed)")
+            print(f"#{count} {file} Processed")
